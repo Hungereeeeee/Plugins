@@ -1,6 +1,6 @@
 #一个简单的轮播插件
 ###使用方法：
-1. 写出轮播结构
+1.写出轮播结构
 ```
 <div class="carousel carousel1">
 	<ul class="img-ct">
@@ -13,11 +13,11 @@
 	<a href="#" class="next arrow">></a>
 </div>
 ```
-2. 引用样式
+2.引用样式
 ```
 <link rel="stylesheet" href="./css/style.css">
 ```
-3. 引用js
+3.引用js
 ```
 <script type="text/javascript" src="./js/libs/jquery.js"></script>
 <script type="text/javascript" src="./js/carousel.js"></script>
