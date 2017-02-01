@@ -25,7 +25,6 @@
 ```
 
 ###调用方法
-只需要new一个新对象，并传入类名作为参数
 ```
-new Carousel($('.carousel1'));
+Carousel.init($('.carousel'))
 ```

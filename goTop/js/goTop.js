@@ -1,20 +1,21 @@
-function goTop($node){
-	this.ct=$node;
-	this.target=$('<div id="goTop"><a href="#">回到顶部</a></div>');
-	this.init();
-}
-goTop.prototype={
-	init:function(){
+var goTop=(function(){
+	function _goTop($node,idName,className,dis){
+		this.ct=$node;
+		this.target=$('<div id="'+idName+'" class="'+className+'"><a href="#">回到顶部</a></div>');
+		this.distance=dis;
+		this.init();
+	}
+	_goTop.prototype.init=function(){
 		this.createEvent()
 		this.bindEvent();
-	},
-	createEvent:function(){
+	}
+	_goTop.prototype.createEvent=function(){
 		this.ct.append(this.target);
-	},
-	bindEvent:function(){
+	}
+	_goTop.prototype.bindEvent=function(){
 		var _this=this;
 		$(window).on('scroll',function(){
-			if($(window).scrollTop()>400){
+			if($(window).scrollTop()>_this.distance){
 				_this.target.show();
 			}else{
 				_this.target.hide();
@@ -24,4 +25,10 @@ goTop.prototype={
 			$(window).scrollTop(0);
 		})
 	}
-}
+
+	return {
+		init:function($ct,idName,className,dis){
+			new _goTop($ct,idName,className,dis)
+		}
+	}
+})()

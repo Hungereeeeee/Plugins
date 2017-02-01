@@ -8,7 +8,8 @@
 <script src="./js/libs/jquery.js"></script>
 <script src="./js/goTop.js"></script>
 ```
-2.new一个对象并传入参数作为想要插入的位置
+2.调用
+依次传入插入位置，所需要的id名称，所需类名，以及所需经过的距离
 ```
-var scroll=new goTop($('.footer'))
+goTop.init($('.footer'),'goTop','aaaaa',2000)
 ```
