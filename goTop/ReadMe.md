@@ -1,7 +1,7 @@
 #一个回到顶部的按钮插件
 会生成一个按钮用来返回顶部
 样式请自行设定
-[一个例子](https://hungereeeeee.github.io/Plugins/goTop/index.html)
+[一个例子](https://hungryyang.github.io/Plugins/goTop/index.html)
 ###使用方法
 1.引用js文件
 ```

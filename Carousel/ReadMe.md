@@ -1,5 +1,5 @@
 #一个简单的轮播插件
- [一个例子](https://hungereeeeee.github.io/Plugins/Carousel/index.html)
+ [一个例子](https://hungryyang.github.io/Plugins/Carousel/index.html)
 ###使用方法：
 1.写出轮播结构
 ```

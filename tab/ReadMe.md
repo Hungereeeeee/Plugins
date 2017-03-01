@@ -1,5 +1,5 @@
 #一个tab組件
-[一个例子](https://hungereeeeee.github.io/Plugins/tab/index.html)
+[一个例子](https://hungryyang.github.io/Plugins/tab/index.html)
 ###使用方法
 1.引用js文件
 ```
